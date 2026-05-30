@@ -1,1 +1,33 @@
-.gradle
+### Kotlin Specific ###
+# Kotlin Gradle Plugin internal data and incremental compilation caches
+.kotlin/
+
+### Build Tools and Artifacts ###
+build/
+bin/
+out/
+.gradle/
+
+### Java and Compiled Classes ###
+*.class
+*.log
+*.jar
+*.war
+
+### IntelliJ IDEA / Android Studio ###
+.idea/
+*.iml
+*.ipr
+*.iws
+.navigation/
+captures/
+
+### Local Configuration & Secrets ###
+local.properties
+.env
+.env.*
+
+### Operating System Files ###
+.DS_Store
+Thumbs.db
+kls_database.db
