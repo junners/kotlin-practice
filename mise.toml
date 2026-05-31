@@ -1,2 +1,7 @@
 [tools]
+"github:fwcd/kotlin-language-server" = "1.3.13"
 java = "temurin-24"
+
+[tasks.nvim]
+description = "Open Neovim with this project's mise-managed dependencies."
+run = "nvim --cmd 'set exrc' ."
